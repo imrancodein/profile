@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+/* src/index.css */
+
+
+html, body {
+  scroll-behavior: smooth;
+}
+
+/* Custom styles for active navigation link */
+.active-link {
+  color: #2563eb; /* Blue-600 */
+  font-weight: 700; /* Bold */
+  /* आप यहाँ कोई और स्टाइल भी जोड़ सकते हैं, जैसे: */
+  /* border-bottom: 2px solid #2563eb; */
+}
+*{
+  font-family: "Outfit"
+}
