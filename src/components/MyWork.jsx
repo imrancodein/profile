@@ -1,9 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import web from '../assets/web.PNG'
-import portfolio from '../assets/portfolio.PNG'
-import weather from '../assets/weather.PNG'
-import webdev from '../assets/webdev.PNG'
+import web from '../assets/web.png'
+import portfolio from '../assets/portfolio.png'
+import weather from '../assets/weather.png'
 
 // --- Placeholder Project Data ---
 const projectsData = [
