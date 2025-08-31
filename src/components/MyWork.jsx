@@ -19,7 +19,7 @@ const projectsData = [
     image: portfolio,
     title: 'Portfolio Website',
     description: 'A personal portfolio showcasing web development skills and previous projects built with React.',
-    liveLink: 'https://www.example-portfolio.com',
+    liveLink: 'https://profile-fawn-sigma.vercel.app/',
   },
   {
     id: 3,
