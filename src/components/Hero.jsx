@@ -5,6 +5,7 @@ import { FiArrowRight, FiDownload } from 'react-icons/fi';
 import { useInView } from 'react-intersection-observer'; // useInView इम्पोर्ट करें
 import useTypingEffect from './useTypingEffect';
 import imran from '../assets/imran.JPG'
+import Imran_Resume from '../assets/imran.pdf'
 
 const Hero = () => {
   // Hero सेक्शन के लिए मुख्य ref
@@ -22,10 +23,10 @@ const Hero = () => {
 
   // रेज़्यूमे डाउनलोड फंक्शन
   const handleDownloadResume = () => {
-    const resumeUrl = '/Adarsh_Resume.pdf'; // <--- इसे अपने रेज़्यूमे फाइल के नाम से बदलें
+    const resumeUrl = Imran_Resume; // <--- इसे अपने रेज़्यूमे फाइल के नाम से बदलें
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'Adarsh_Resume.pdf';
+    link.download = 'Imran_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

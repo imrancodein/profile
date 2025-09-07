@@ -26,7 +26,7 @@ const projectsData = [
     image: webdev,
     title: 'Modern Web Development Showcase',
     description: 'A responsive and interactive web application built with React, Tailwind CSS, and modern web technologies.',
-    liveLink: 'webdev-mu-plum.vercel.app',
+    liveLink: 'https://webdev-imran.vercel.app/',
   },
   {
     id: 4,
