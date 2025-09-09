@@ -24,12 +24,19 @@ const Hero = () => {
   // रेज़्यूमे डाउनलोड फंक्शन
   const handleDownloadResume = () => {
     const resumeUrl = Imran_Resume; // <--- इसे अपने रेज़्यूमे फाइल के नाम से बदलें
-    const link = document.createElement('a');
-    link.href = resumeUrl;
-    link.download = 'Imran_Resume.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
+     const previewTab = window.open(resumeUrl, '_blank');
+
+    if (!previewTab) {
+      alert("Could not open the preview tab. Please check your browser's pop-up blocker settings.");
+    }
+// direct download resume code
+
+    // const link = document.createElement('a');
+    // link.href = resumeUrl;
+    // link.download = 'Imran_Resume.pdf';
+    // document.body.appendChild(link);
+    // link.click();
+    // document.body.removeChild(link);
   };
 
   return (

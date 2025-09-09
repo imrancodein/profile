@@ -12,7 +12,7 @@ const projectsData = [
     image: web,
     title: ' Computer Institute Website',
     description: 'Developed a responsive Computer Institute Website with course details, admission form, and faculty info — built using MERN stack for a smooth digital experience.',
-    liveLink: 'https://imran2454.github.io/realcomputer/',
+    liveLink: 'https://realcomputers-1.onrender.com/',
   },
   {
     id: 2,
