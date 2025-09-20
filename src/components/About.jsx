@@ -2,7 +2,7 @@
 import React from 'react';
 import { Element } from 'react-scroll';
 import { useInView } from 'react-intersection-observer';
-import imran from '../assets/imran.JPG'
+import imran from '../assets/imran.jpeg'
 const About = () => {
   // useInView hook to control animation
   const { ref: sectionRef, inView: sectionInView } = useInView({

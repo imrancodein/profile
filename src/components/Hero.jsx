@@ -4,7 +4,7 @@ import { Element, Link as ScrollLink } from 'react-scroll';
 import { FiArrowRight, FiDownload } from 'react-icons/fi';
 import { useInView } from 'react-intersection-observer'; // useInView इम्पोर्ट करें
 import useTypingEffect from './useTypingEffect';
-import imran from '../assets/imran.JPG'
+import imran from '../assets/imran.jpeg'
 import Imran_Resume from '../assets/imran.pdf'
 
 const Hero = () => {

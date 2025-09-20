@@ -4,20 +4,22 @@ import web from '../assets/web.PNG'
 import portfolio from '../assets/portfolio.PNG'
 import weather from '../assets/weather.PNG'
 import webdev from '../assets/webdev.PNG'
+import chat from '../assets/chat.PNG'
+import food from '../assets/food.PNG'
 
 // --- Placeholder Project Data ---
 const projectsData = [
   {
     id: 1,
     image: web,
-    title: ' Computer Institute Website',
-    description: 'Developed a responsive Computer Institute Website with course details, admission form, and faculty info — built using MERN stack for a smooth digital experience.',
+    title: ' Computer Institute Website Full Stack',
+    description: '💻 🎓 Developed a responsive Computer Institute Website with course details, admission form, and faculty info — built using MERN stack for a smooth digital experience.',
     liveLink: 'https://realcomputers-1.onrender.com/',
   },
   {
     id: 2,
     image: portfolio,
-    title: 'Portfolio Website',
+    title: '🚀 Portfolio Website',
     description: 'A personal portfolio showcasing web development skills and previous projects built with React.',
     liveLink: 'https://profile-fawn-sigma.vercel.app/',
   },
@@ -30,24 +32,24 @@ const projectsData = [
   },
   {
     id: 4,
-    image: '/images/project4.png',
-    title: 'Blog Platform',
-    description: 'A simple blog platform allowing users to create, read, update, and delete posts.',
-    liveLink: 'https://www.example-blog.com',
+    image: chat,
+    title: '🤖💬 AI Chatbot with Real-Time Conversations (Socket.IO)',
+    description: 'Developed an interactive AI-powered chatbot using Socket.IO that enables real-time conversations between users and the system.',
+    liveLink: 'https://ai-chatboat-using-socat-io-1.onrender.com',
   },
   {
     id: 5,
     image: weather,
-    title: 'Weather Dashboard',
+    title: '⛈️ Weather Dashboard',
     description: 'An interactive weather application fetching data from a third-party API to display forecasts.',
     liveLink: 'https://imran2454.github.io/weatherApplication/',
   },
   {
     id: 6,
-    image: '/images/project6.png',
-    title: 'Recipe Finder',
-    description: 'A web app to search for recipes based on ingredients using an external API.',
-    liveLink: 'https://www.example-recipe.com',
+    image: food,
+    title: '🍴 Food Delivery Web Application – Full Stack',
+    description: 'Built a Food Delivery App using the MERN stack with features like menu browsing, cart, secure authentication, and real-time order tracking..',
+    liveLink: 'https://food-del-1-oo8y.onrender.com/',
   },
 ];
 
