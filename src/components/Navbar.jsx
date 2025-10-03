@@ -40,6 +40,7 @@ const Navbar = () => {
             IMRAN CODE'S
           </ScrollLink>
         </div>
+        
 
         {/* Mobile Menu Button (Hamburger) - Visible on small screens */}
         <div className="lg:hidden">
