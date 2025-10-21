@@ -83,6 +83,7 @@ const About = () => {
               <h3 className="text-xl font-semibold mb-2 text-gray-900">Languages</h3>
               <p className="text-gray-700 text-center lg:text-left">HTML, CSS, JavaScript</p>
               <p className="text-gray-700 text-center lg:text-left">React Js, Next Js</p>
+              <p className="text-gray-700 text-center lg:text-left">Node Js, Express Js</p>
             </div>
 
             {/* Box 2: Education */}
@@ -122,11 +123,15 @@ const About = () => {
             <div className="flex flex-wrap justify-center lg:justify-start gap-6">
               {/* Tool Icons - Replace src with actual paths to your tool icon images */}
               <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" alt="VS Code" className="w-12 h-12 transition-transform duration-300 hover:scale-110" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" className="w-12 h-12 transition-transform duration-300 hover:scale-110" />
-              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" className="w-12 h-12 transition-transform duration-300 hover:scale-110" />
+              {/* <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Node.js" className="w-12 h-12 transition-transform duration-300 hover:scale-110" />
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React" className="w-12 h-12 transition-transform duration-300 hover:scale-110" /> */}
+              
               <img src="https://1000logos.net/wp-content/uploads/2024/08/Vercel-Logo.png" alt="Vercel" className="w-12 h-12 transition-transform duration-300 hover:scale-110" />
               <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="Figma" className="w-12 h-12 transition-transform duration-300 hover:scale-110" />
+              <img src="https://ik.imagekit.io/qualys/wp-content/uploads/2020/10/postman.jpg" alt="GitHub" className="w-12 h-12 transition-transform duration-300 hover:scale-110" />
               <img src="https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg" alt="GitHub" className="w-12 h-12 transition-transform duration-300 hover:scale-110" />
+              <img src="https://images.contentstack.io/v3/assets/blt7151619cb9560896/blte805b270ed458c61/64d5657bfe29dd7e5230f526/Untitled_design.svg" alt="GitHub" className="w-12 h-12 transition-transform duration-300 hover:scale-110" />
+              <img src="https://www.svgrepo.com/show/342225/socket-io.svg" alt="Socketio" className="w-12 h-12 transition-transform duration-300 hover:scale-110" />
               {/* Add more tool icons as needed */}
             </div>
           </div>

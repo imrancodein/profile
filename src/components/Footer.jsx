@@ -25,7 +25,7 @@ const Footer = () => {
           <h3 className="text-2xl font-semibold mb-4 text-blue-400">Connect With Me</h3>
           <div className="flex space-x-6">
             <motion.a
-              href="https://www.linkedin.com/in/codeimran/" // Replace with your LinkedIn URL
+              href="https://www.linkedin.com/in/imrancode/" // Replace with your LinkedIn URL
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-blue-500 transition-colors duration-300"
@@ -39,7 +39,7 @@ const Footer = () => {
             </motion.a>
 
             <motion.a
-              href="https://github.com/imran2454" // Replace with your GitHub URL
+              href="https://github.com/imrancodein" // Replace with your GitHub URL
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-gray-200 transition-colors duration-300"
